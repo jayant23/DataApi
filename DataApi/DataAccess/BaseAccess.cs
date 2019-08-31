@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NoaDomAndDataAccess.DataAccess
+namespace DataApi.DataAccess
 {
 
     public abstract class BaseAccess

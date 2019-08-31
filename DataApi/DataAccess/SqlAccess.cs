@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
 
-namespace NoaDomAndDataAccess.DataAccess
+namespace DataApi.DataAccess
 {
     public abstract class SqlAccess : BaseAccess
     {

@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Web;
 
-namespace NoaDomAndDataAccess
+namespace DataApi.DataAccess
 {
     public static class Settings
     {
         public static string ConnectionStringName = "DBConnectionString";
         public static string SecurityDBConnString = "SecurityConnectionString";
         public static string OCTFilesDBConnString = "NoaOctFilesDBString";
-        
+
         public static int ListLimit = 2;
 
         public const int Week = 7;
@@ -41,6 +40,6 @@ namespace NoaDomAndDataAccess
         {
             public static string ValidationService = "ValidationService";
         }
-        
+
     }
 }
